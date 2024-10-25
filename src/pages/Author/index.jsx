@@ -1,14 +1,14 @@
-import React from 'react'
-import Banner from './Banner'
-import Container from './Container'
+import React from "react";
+import Banner from "./Banner";
+import Container from "./Container";
 
 function Author() {
   return (
     <div>
-      <Banner/>
-      <Container/>
+      <Banner />
+      <Container />
     </div>
-  )
+  );
 }
 
-export default Author
+export default Author;

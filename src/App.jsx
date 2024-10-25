@@ -47,8 +47,8 @@ function App() {
       element: <SignUp />,
     },
     {
-      element:<ProtectedLayout/>,
-      children:[
+      element: <ProtectedLayout />,
+      children: [
         {
           path: "/",
           element: <Layout />,
@@ -75,9 +75,8 @@ function App() {
             },
           ],
         },
-      ]
+      ],
     },
-
   ]);
 
   const [themeMode, setThemeMode] = useState("light");
