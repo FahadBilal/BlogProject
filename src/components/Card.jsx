@@ -3,7 +3,7 @@ import React from "react";
 function Card() {
   return (
     <div>
-      <div className="border border-gray-light rounded-lg px-2 py-2 md:[300px]  w-[300px]">
+      <div className="border border-gray-light rounded-lg px-2 py-2 md:w-[320px] w-[300px]" >
         <img src="/images/Rectangle 38.png" alt="" className="mb-3" />
         <button className="bg-gray-light bg-opacity-20 text-blue px-2 rounded-md text-[12px] mb-3">
           Technology
