@@ -3,11 +3,8 @@ import Card from "../../components/Card";
 
 function Container() {
   return (
-    <div className="sm:px-6 mb-20 ">
-      <div className="grid  gap-y-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-items-center">
-        <Card />
-        <Card />
-        <Card />
+    <div className="sm:px-6 px-2 mb-20 ">
+     <div className="grid gap-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-items-center place-content-center">
         <Card />
         <Card />
         <Card />
